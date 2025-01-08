@@ -22,7 +22,6 @@ public class PrimeNumbers {
 
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
-        sc.close();
 
         int count = 0;
         int num = 2;
@@ -35,5 +34,6 @@ public class PrimeNumbers {
             }
             num++;
         }
+        sc.close();
     }
 }
