@@ -1,7 +1,7 @@
 // Write a program in Java to reverse the digits 
 // of a number using while loop
 
-public class Que {
+public class ReverseDigits {
 
     public static void main(String[] args) {
         int n = 1034;
