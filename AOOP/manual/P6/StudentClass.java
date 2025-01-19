@@ -4,22 +4,22 @@
 // Student  class  in  main  method  and  display 
 // student’s name.
 
-public class StudentClass {
+class Student {
+    long enrollmentNo;
+    String name;
 
-    public static class Student {
-        long enrollmentNo;
-        String name;
-
-        Student(long enroll, String nameString) {
-            enrollmentNo = enroll;
-            name = nameString;
-        }
-
-        void Display() {
-            System.out.println("Enrollment No: " + enrollmentNo);
-            System.out.println("Name: " + name);
-        }
+    Student(long enroll, String nameString) {
+        enrollmentNo = enroll;
+        name = nameString;
     }
+
+    void Display() {
+        System.out.println("Enrollment No: " + enrollmentNo);
+        System.out.println("Name: " + name);
+    }
+}
+
+public class StudentClass {
 
     public static void main(String[] args) {
         Student s1 = new Student(23602030701L, "Ohm");
