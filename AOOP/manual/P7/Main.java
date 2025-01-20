@@ -3,17 +3,17 @@
 // height  and  weight.  Initialize  the  class  using 
 // constructor
 
-public class Main {
+class Rectangle {
+    int height;
+    int weight;
 
-    public static class Rectangle {
-        int height;
-        int weight;
-
-        Rectangle(int h, int w) {
-            height = h;
-            weight = w;
-        }
+    Rectangle(int h, int w) {
+        height = h;
+        weight = w;
     }
+}
+
+public class Main {
 
     public static void main(String[] args) {
         Rectangle rect = new Rectangle(50, 100);
