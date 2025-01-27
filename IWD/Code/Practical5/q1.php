@@ -9,20 +9,24 @@ money -->
 
 function smallest_number_of_notes($amount)
 {
-    $notes = array(100, 50, 20, 10, 5, 2, 1);
-    $no_of_notes = 0;
+    $notes = array(100 => 0, 50 => 0, 20 => 0, 10 => 0, 5 => 0, 2 => 0, 1 => 0);
 
-    foreach ($notes as $note) {
+    foreach ($notes as $note => $no) {
         while ($amount >= $note) {
             $amount -= $note;
-            $no_of_notes++;
+            $notes[$note]++;
         }
     }
-    return $no_of_notes;
+    foreach ($notes as $note => $no) {
+        if ($no > 0) {
+            echo "Number of $note notes: $no<br>";
+        }
+    }
 }
 
-$money = 250;
+$money = 251;
 
-echo "Smallest number of notes for 150: " . smallest_number_of_notes($money);
+echo "Smallest number of notes for $money:<br> ";
+smallest_number_of_notes($money);
 
 ?>
