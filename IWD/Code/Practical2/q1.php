@@ -17,7 +17,7 @@
         <input type="number" name="num2" required><br><br>
 
         <label>Select Operation:</label>
-        <select id="operation" name="operation">
+        <select name="operation">
             <option value="add">Add</option>
             <option value="subtract">Subtract</option>
             <option value="multiply">Multiply</option>
