@@ -9,8 +9,8 @@
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $name = htmlspecialchars($_POST['name']);  // Sanitizing user input
-        $role = htmlspecialchars($_POST['user_role']); // Retrieving hidden variable
+        $name = $_POST['name'];
+        $role = $_POST['user_role'];
 
         echo "<p><strong>Name:</strong> $name</p>";
         echo "<p><strong>Role:</strong> $role</p>";

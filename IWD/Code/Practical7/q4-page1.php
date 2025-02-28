@@ -7,10 +7,9 @@
 <body>
     <h2>Page 1: Enter Your Name</h2>
     <form action="q4-page2.php" method="post">
-        <label for="name">Your Name:</label>
+        <label>Your Name:</label>
         <input type="text" id="name" name="name" required>
 
-        <!-- Hidden Variable -->
         <input type="hidden" name="user_role" value="Student">
 
         <br><br>
