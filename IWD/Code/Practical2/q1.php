@@ -11,13 +11,13 @@
 
     <form method="post" action="#">
         <label>Number 1:</label>
-        <input type="number" id="num1" name="num1" required><br><br>
+        <input type="number" name="num1" required><br><br>
 
         <label>Number 2:</label>
-        <input type="number" id="num2" name="num2" required><br><br>
+        <input type="number" name="num2" required><br><br>
 
         <label>Select Operation:</label>
-        <select id="operation" name="operation">
+        <select name="operation">
             <option value="add">Add</option>
             <option value="subtract">Subtract</option>
             <option value="multiply">Multiply</option>
