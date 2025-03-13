@@ -19,13 +19,15 @@
 
         echo "<h2>Details:</h2>";
 
-        if (trim($name) != "") {
+        // Validate name (only letters and spaces allowed)
+        if (preg_match("/^[a-zA-Z ]*$/", $name)) {
             echo "Name: $name <br>";
         } else {
-            echo "Name is required <br>";
+            echo "Invalid name format <br>";
         }
 
-        if (strpos($email, '@') !== false) {
+        // Validate email
+        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             echo "Email: $email <br>";
         } else {
             echo "Invalid email format <br>";
