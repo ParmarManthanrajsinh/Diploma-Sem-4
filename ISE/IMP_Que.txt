@@ -1,0 +1,23 @@
+Paper style:
+
+Unit-2  4 marks
+Unit-3  10 marks
+Unit-4  6 marks
+
+
+MIMP ques
+
+Unit-2
+1) *Structure of Class Diagram (4 marks)
+
+Unit-3
+2) *COCOMO model (4 marks)
+
+3) Gant Chart (4 marks)
+
+4) LOC and FP (3 or 4 marks)
+
+5) Job responsibility of software project manager (3 marks)
+
+6) Skills required in project manager (3 marks)
+
