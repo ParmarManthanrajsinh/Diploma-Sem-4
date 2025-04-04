@@ -3,7 +3,7 @@
 
 <body>
         <h2>Employee Login</h2>
-        <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+        <form method="POST" action="">
             <label>Name:</label>
             <input type="text" name="name" required>
 
